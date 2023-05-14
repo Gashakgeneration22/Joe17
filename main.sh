@@ -423,7 +423,7 @@ cat >/root/tmp <<-END
 ### Geostoretunnel $TANGGAL $MYIP
 END
 ####
-KYTPROJECT() {
+JOESATRIA() {
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $2}'))
     for user in "${data[@]}"; do
         exp=($(grep -E "^### $user" "/root/tmp" | awk '{print $3}'))
@@ -557,7 +557,7 @@ echo ""
 
 }
 cd /tmp
-KYTPROJECT
+JOESATRIA
 first_setup
 dir_xray
 add_domain
