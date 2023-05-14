@@ -557,7 +557,7 @@ echo ""
 
 }
 cd /tmp
-JOESATRIA
+KYTPROJECT
 first_setup
 dir_xray
 add_domain
